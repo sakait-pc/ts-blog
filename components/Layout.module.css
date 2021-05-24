@@ -1,0 +1,38 @@
+.container {
+  position: relative;
+}
+
+.contents {
+  max-width: 36rem;
+  padding: 0 1rem;
+  margin: 0 auto 3rem;
+}
+
+.header {
+  display: flex;
+  /* justify-content: flex-start; */
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.blog_title_link {
+  color: #000;
+}
+
+.main {
+  padding: 3rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
+
+.footer {
+  text-align: center;
+}
