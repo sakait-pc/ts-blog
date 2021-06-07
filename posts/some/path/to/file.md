@@ -1,5 +1,5 @@
 ---
-title: 'some path to file.md title'
+title: '(サンプル記事)some path to file.md title'
 date: '2020-05-14'
 ---
 
