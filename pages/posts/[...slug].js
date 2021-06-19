@@ -26,7 +26,7 @@ export default function Post(postData) {
     <Layout title={postData.title}>
       <article>
         <header>
-          <h1>
+          <h1 className={styles.entry_title}>
             <Link href={`/posts/${postData.slug}`}>
               <a className={styles.entry_title_link}>{postData.title}</a>
             </Link>
