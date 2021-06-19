@@ -21,6 +21,7 @@ export default function Layout({children, title}) {
           <meta name="og:title" content={siteTitle} />
           <meta name="twitter:card" content="summary_large_image" />
           <title>{title}</title>
+          <meta name="google-site-verification" content="zsFHZW9_tN4dvXSoAl3R58SnozLziUOWv8fEnsr5_AY" />
         </Head>
         <header className={styles.header}>
           <div><Link href="/"><a className={styles.blog_title_link}>{siteTitle}</a></Link></div>
