@@ -9,3 +9,7 @@
 .entry_body {
   padding-top: 1.5rem;
 }
+
+.entry_body img {
+  max-width: 100%;
+}
