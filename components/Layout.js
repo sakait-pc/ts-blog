@@ -30,7 +30,7 @@ export default function Layout({children, title}) {
           <main className={styles.main}>{children}</main>
         </div>
         {/* <aside>TODO: This is aside</aside> */}
-        <footer className={styles.footer}>©2021 <a href="https://github.com/sakait-pc" target="_blank" rel="noopener noreferrer">TS blog</a></footer>
+        <footer className={styles.footer}>©2021 <a href="https://github.com/sakait-pc" target="_blank" rel="noopener noreferrer">{siteTitle}</a></footer>
       </div>
     </>
   )
