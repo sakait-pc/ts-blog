@@ -32,8 +32,8 @@ export default function Post(postData) {
             </Link>
           </h1>
           <div>
-            <div><small>Slug: {postData.slug}</small></div>
             <div><small>Date: {postData.date}</small></div>
+            <div><small><a href={postData.historyUrl} target="_blank" rel="noopener noreferrer">History</a></small></div>
           </div>
         </header>
         <div className={styles.entry_body} dangerouslySetInnerHTML={{__html: postData.contentHtml}} />
