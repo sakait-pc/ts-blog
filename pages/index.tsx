@@ -24,6 +24,11 @@ type Props = {
 export default function Home({ allPostsData }: Props) {
   return (
     <Layout title={siteTitle}>
+      <p>TS Blogを閲覧いただき誠にありがとうございます。当ブログは新ブログに移転しました。</p>
+      <p>リダイレクトされない場合は、お手数ですが下記リンクよりお進みください。</p>
+      <p>
+        <a href='https://sakait-blog.web.app/' target="_blank" rel="noopener noreferrer">https://sakait-blog.web.app/</a>
+      </p>
       <h1 className={styles.description}>
         記事一覧
       </h1>
