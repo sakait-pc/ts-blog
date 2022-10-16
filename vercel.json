@@ -1,24 +1,29 @@
 {
-    "redirects": [
-      {
-        "source": "/",
-        "destination": "https://sakait-blog.web.app/"
-      },
-      {
-        "source": "/posts/CLI/introduction-command-line-interface",
-        "destination": "https://sakait-blog.web.app/posts/CLI/introduction-command-line-interface"
-      },
-      {
-        "source": "/posts/WSL/how-to-install-wsl",
-        "destination": "https://sakait-blog.web.app/posts/WSL/how-to-install-wsl"
-      },
-      {
-        "source": "/posts/NodeJS/introduction-nodejs",
-        "destination": "https://sakait-blog.web.app/posts/NodeJS/introduction-nodejs"
-      },
-      {
-        "source": "/posts/Notion/trouble-shooting-notion-desktop-redirect",
-        "destination": "https://sakait-blog.web.app/posts/Notion/trouble-shooting-notion-desktop-redirect"
-      }
-    ]
-  }
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://sakait-blog.web.app/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/CLI/introduction-command-line-interface",
+      "destination": "https://sakait-blog.web.app/posts/CLI/introduction-command-line-interface",
+      "permanent": true
+    },
+    {
+      "source": "/posts/WSL/how-to-install-wsl",
+      "destination": "https://sakait-blog.web.app/posts/WSL/how-to-install-wsl",
+      "permanent": true
+    },
+    {
+      "source": "/posts/NodeJS/introduction-nodejs",
+      "destination": "https://sakait-blog.web.app/posts/NodeJS/introduction-nodejs",
+      "permanent": true
+    },
+    {
+      "source": "/posts/Notion/trouble-shooting-notion-desktop-redirect",
+      "destination": "https://sakait-blog.web.app/posts/Notion/trouble-shooting-notion-desktop-redirect",
+      "permanent": true
+    }
+  ]
+}
