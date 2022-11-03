@@ -1,11 +1,6 @@
 {
   "redirects": [
     {
-      "source": "/",
-      "destination": "https://sakait-blog.web.app/",
-      "permanent": true
-    },
-    {
       "source": "/posts/CLI/introduction-command-line-interface",
       "destination": "https://sakait-blog.web.app/posts/CLI/introduction-command-line-interface",
       "permanent": true
